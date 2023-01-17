@@ -1,4 +1,4 @@
-package com.example.personaltrainer.login;
+package com.example.personaltrainer.ui.register;
 
 import androidx.annotation.Nullable;
 

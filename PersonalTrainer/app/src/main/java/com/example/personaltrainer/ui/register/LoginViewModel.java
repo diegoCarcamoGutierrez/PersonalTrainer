@@ -1,4 +1,4 @@
-package com.example.personaltrainer.login;
+package com.example.personaltrainer.ui.register;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
@@ -6,9 +6,9 @@ import androidx.lifecycle.ViewModel;
 
 import android.util.Patterns;
 
-import com.example.personaltrainer.login.data.LoginRepository;
-import com.example.personaltrainer.login.data.Result;
-import com.example.personaltrainer.login.data.model.LoggedInUser;
+import com.example.personaltrainer.ui.register.data.LoginRepository;
+import com.example.personaltrainer.ui.register.data.Result;
+import com.example.personaltrainer.ui.register.data.model.LoggedInUser;
 import com.example.personaltrainer.ui.Login.R;
 
 public class LoginViewModel extends ViewModel {

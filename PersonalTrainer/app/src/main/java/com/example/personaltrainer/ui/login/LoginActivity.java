@@ -1,4 +1,4 @@
-package com.example.personaltrainer.login;
+package com.example.personaltrainer.ui.login;
 
 import android.app.Activity;
 
@@ -22,19 +22,19 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.personaltrainer.ui.Login.R;
-import com.example.personaltrainer.ui.Login.databinding.ActivityLogin2Binding;
+import com.example.personaltrainer.R;
+import com.example.personaltrainer.databinding.ActivityLoginBinding;
 
 public class LoginActivity extends AppCompatActivity {
 
     private LoginViewModel loginViewModel;
-    private ActivityLogin2Binding binding;
+    private ActivityLoginBinding binding;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        binding = ActivityLogin2Binding.inflate(getLayoutInflater());
+        binding = ActivityLoginBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
         loginViewModel = new ViewModelProvider(this, new LoginViewModelFactory())

@@ -1,6 +1,6 @@
-package com.example.personaltrainer.login.data;
+package com.example.personaltrainer.ui.login.data;
 
-import com.example.personaltrainer.login.data.model.LoggedInUser;
+import com.example.personaltrainer.ui.login.data.model.LoggedInUser;
 
 /**
  * Class that requests authentication and user information from the remote data source and

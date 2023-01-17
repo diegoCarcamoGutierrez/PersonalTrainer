@@ -1,4 +1,4 @@
-package com.example.personaltrainer.login;
+package com.example.personaltrainer.ui.login;
 
 /**
  * Class exposing authenticated user details to the UI.

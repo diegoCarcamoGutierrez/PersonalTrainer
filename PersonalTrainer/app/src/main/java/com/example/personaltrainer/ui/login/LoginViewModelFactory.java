@@ -1,11 +1,11 @@
-package com.example.personaltrainer.login;
+package com.example.personaltrainer.ui.login;
 
 import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.annotation.NonNull;
 
-import com.example.personaltrainer.login.data.LoginDataSource;
-import com.example.personaltrainer.login.data.LoginRepository;
+import com.example.personaltrainer.ui.login.data.LoginDataSource;
+import com.example.personaltrainer.ui.login.data.LoginRepository;
 
 /**
  * ViewModel provider factory to instantiate LoginViewModel.

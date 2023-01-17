@@ -1,6 +1,6 @@
-package com.example.personaltrainer.login.data;
+package com.example.personaltrainer.ui.register.data;
 
-import com.example.personaltrainer.login.data.model.LoggedInUser;
+import com.example.personaltrainer.ui.register.data.model.LoggedInUser;
 
 import java.io.IOException;
 
