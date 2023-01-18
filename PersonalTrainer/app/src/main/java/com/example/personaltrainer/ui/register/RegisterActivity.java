@@ -1,30 +1,18 @@
 package com.example.personaltrainer.ui.register;
 
 import android.annotation.SuppressLint;
-import android.app.Activity;
-
-import androidx.lifecycle.Observer;
-import androidx.lifecycle.ViewModelProvider;
-
-import android.app.DownloadManager;
 import android.content.Context;
 import android.os.Bundle;
-
-import androidx.annotation.Nullable;
-import androidx.annotation.StringRes;
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.text.Editable;
-import android.text.TextWatcher;
-import android.view.KeyEvent;
 import android.view.View;
-import android.view.inputmethod.EditorInfo;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ProgressBar;
-import android.widget.TextView;
-import android.widget.Toast;
 
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.android.volley.Request;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.JsonObjectRequest;
 import com.example.personaltrainer.R;
 
 import org.json.JSONException;
@@ -73,8 +61,8 @@ public class RegisterActivity extends AppCompatActivity {
         }
 
         JsonObjectRequest request = new JsonObjectRequest(
-                DownloadManager.Request.Method.POST,
-                Server.name + "https://63bd4219fa38d30d85de40e4.mockapi.io",
+                Request.Method.POST,
+                 "https://63bd4219fa38d30d85de40e4.mockapi.io",
                 requestBody,
                 new Response.Listener<JSONObject>() {
                     @Override
